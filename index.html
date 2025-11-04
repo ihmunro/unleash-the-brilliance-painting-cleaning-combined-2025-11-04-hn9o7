@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Unleash the Brilliance: Painting & Cleaning Combined. Discover the ultimate transformation for any room with full-service renovation support, color consultation, and post-painting cleanup.">
+    <meta name="keywords" content="painting, cleaning, renovation, color consultation, home transformation">
+    <meta name="author" content="Fresh Feel Painting and Cleaning">
+    <title>Fresh Feel Painting & Cleaning - Professional Painting and Cleaning Services</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+        
+        .gradient-text {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .hero-pattern {
+            background-image: 
+                linear-gradient(135deg, rgba(102, 126, 234, 0.1) 25%, transparent 25%),
+                linear-gradient(225deg, rgba(102, 126, 234, 0.1) 25%, transparent 25%),
+                linear-gradient(45deg, rgba(102, 126, 234, 0.1) 25%, transparent 25%),
+                linear-gradient(315deg, rgba(102, 126, 234, 0.1) 25%, transparent 25%);
+            background-position: 40px 0, 40px 0, 0 0, 0 0;
+            background-size: 80px 80px;
+            background-repeat: repeat;
+        }
+        
+        .feature-card {
+            transition: all 0.3s ease;
+        }
+        
+        .feature-card:hover {
+            transform: translateY(-8px);
+        }
+        
+        .btn-primary {
+            transition: all 0.3s ease;
+        }
+        
+        .btn-primary:hover {
+            transform: scale(1.05);
+        }
+        
+        .faq-icon {
+            transition: transform 0.3s ease;
+        }
+        
+        .faq-answer {
+            transition: all 0.3s ease;
+            max-height: 500px;
+            overflow: hidden;
+        }
+        
+        .faq-answer.hidden {
+            max-height: 0;
+            opacity: 0;
+        }
+        
+        .testimonial-card {
+            transition: all 0.3s ease;
+        }
+        
+        .testimonial-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body class="bg-white text-gray-900">
+    <!-- Header & Navigation -->
+    <header class="sticky top-0 z-50 bg-white shadow-md">
+        <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <!-- Logo -->
+                <div class="flex-shrink-0">
+                    <a href="#" class="text-2xl font-bold text-gray-900">
+                        <i class="fas fa-paint-brush text-blue-600 mr-2"></i>Fresh Feel
+                    </a>
+                </div>
+
+                <!-- Desktop Menu -->
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="#features" class="text-gray-700 hover:text-blue-600 transition-colors duration-300 font-medium">Features</a>
+                    <a href="#benefits" class="text-gray-700 hover:text-blue-600 transition-colors duration-300 font-medium">Benefits</a>
+                    <a href="#testimonials" class="text-gray-700 hover:text-blue-600 transition-colors duration-300 font-medium">Testimonials</a>
+                    <a href="#faq" class="text-gray-700 hover:text-blue-600 transition-colors duration-300 font-medium">FAQ</a>
+                    <a href="https://www.freshfeelpaintingandcleaning.ca/" target="_blank" rel="noopener noreferrer" class="btn-primary bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 shadow-md hover:shadow-lg font-medium">Get Started</a>
+                </div>
+
+                <!-- Mobile Menu Button -->
+                <button class="mobile-menu-button md:hidden text-gray-700 hover:text-blue-600 transition-colors duration-300">
+                    <i class="fas fa-bars text-2xl"></i>
+                </button>
+            </div>
+
+            <!-- Mobile Menu -->
+            <div class="mobile-menu hidden md:hidden pb-4">
+                <a href="#features" class="block px-4 py-2 text-gray-700 hover:text-blue-600 hover:bg-gray-50 rounded-lg transition-colors duration-300">Features</a>
+                <a href="#benefits" class="block px-4 py-2 text-gray-700 hover:text-blue-600 hover:bg-gray-50 rounded-lg transition-colors duration-300">Benefits</a>
+                <a href="#testimonials" class="block px-4 py-2 text-gray-700 hover:text-blue-600 hover:bg-gray-50 rounded-lg transition-colors duration-300">Testimonials</a>
+                <a href="#faq" class="block px-4 py-2 text-gray-700 hover:text-blue-600 hover:bg-gray-50 rounded-lg transition-colors duration-300">FAQ</a>
+                <a href="https://www.freshfeelpaintingandcleaning.ca/" target="_blank" rel="noopener noreferrer" class="block px-4 py-2 mt-4 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors duration-300 font-medium text-center">Get Started</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-pattern pt-20 pb-24 md:pt-32 md:pb-40 bg-gradient-to-br from-gray-50 to-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-4xl mx-auto">
+                <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight tracking-tight">
+                    Unleash the Brilliance: Painting & Cleaning Combined
+                </h1>
+                <p class="text-lg md:text-xl text-gray-700 mb-8 leading-relaxed max-w-2xl mx-auto">
+                    Discover the ultimate transformation for any room. Our meticulous approach combines professional painting services with comprehensive cleaning, delivering spotless results and cohesive aesthetics that exceed your expectations.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                    <a href="https://www.freshfeelpaintingandcleaning.ca/" target="_blank" rel="noopener noreferrer" class="btn-primary bg-blue-600 text-white px-8 py-4 rounded-lg hover:bg-blue-700 shadow-lg hover:shadow-xl font-semibold text-lg transition-all duration-300">
+                        <i class="fas fa-arrow-right mr-2"></i>Start Your Transformation
+                    </a>
+                    <a href="#features" class="btn-primary border-2 border-blue-600 text-blue-600 px-8 py-4 rounded-lg hover:bg-blue-50 font-semibold text-lg transition-all duration-300">
+                        <i class="fas fa-info-circle mr-2"></i>Learn More
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="py-16 md:py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12 md:mb-16">
+                <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4 leading-tight">
+                    Comprehensive Service Features
+                </h2>
+                <p class="text-lg text-gray-600 max-w-2xl mx-auto">
+                    We provide a complete range of professional painting and cleaning services tailored to transform your space with precision and care.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 lg:gap-10">
+                <!-- Feature 1: Full-Service Renovation Support -->
+                <div class="feature-card bg-gradient-to-br from-gray-50 to-white p-8 rounded-xl shadow-md hover:shadow-xl border border-gray-100">
+                    <div class="flex items-center justify-center w-16 h-16 bg-blue-100 rounded-lg mb-6">
+                        <i class="fas fa-tools text-blue-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl md:text-2xl font-bold text-gray-900 mb-4">Full-Service Renovation Support</h3>
+                    <p class="text-gray-700 leading-relaxed mb-4">
+                        Our expert team handles every aspect of your painting project from start to finish. We manage surface preparation, primer application, multi-coat painting, and detailed finishing work to ensure flawless results that stand the test of time.
+                    </p>
+                    <ul class="space-y-2 text-sm text-gray-600">
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 mr-3 mt-1 flex-shrink-0"></i>
+                            <span>Professional surface preparation and priming</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 mr-3 mt-1 flex-shrink-0"></i>
+                            <span>Quality interior and exterior painting</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 mr-3 mt-1 flex-shrink-0"></i>
+                            <span>Detailed finishing and touch-ups included</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Feature 2: Color Consultation -->
+                <div class="feature-card bg-gradient-to-br from-gray-50 to-white p-8 rounded-xl shadow-md hover:shadow-xl border border-gray-100">
+                    <div class="flex items-center justify-center w-16 h-16 bg-purple-100 rounded-lg mb-6">
+                        <i class="fas fa-palette text-purple-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl md:text-2xl font-bold text-gray-900 mb-4">Expert Color Consultation</h3>
+                    <p class="text-gray-700 leading-relaxed mb-4">
+                        Transform your vision into reality with our professional color consultation services. Our design experts analyze your space, lighting conditions, and personal preferences to recommend the perfect color palette that enhances your room's character and ambiance.
+                    </p>
+                    <ul class="space-y-2 text-sm text-gray-600">
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 mr-3 mt-1 flex-shrink-0"></i>
+                            <span>Professional color analysis and recommendations</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 mr-3 mt-1 flex-shrink-0"></i>
+                            <span>Sample testing and visualization</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 mr-3 mt-1 flex-shrink-0"></i>
+                            <span>Trendy and timeless color schemes</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Feature 3: Post-Painting Cleanup -->
+                <div class="feature-card bg-gradient-to-br from-gray-50 to-white p-8 rounded-xl shadow-md hover:shadow-xl border border-gray-100">
+                    <div class="flex items-center justify-center w-16 h-16 bg-green-100 rounded-lg mb-6">
+                        <i class="fas fa-broom text-green-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl md:text-2xl font-bold text-gray-900 mb-4">Post-Painting Cleanup</h3>
+                    <p class="text-gray-700 leading-relaxed mb-4">
+                        Leave the mess to us. Our thorough cleanup service removes all paint residue, protects your furniture and flooring, and leaves your space immaculate. We handle everything so you can enjoy your beautifully painted room immediately.
+                    </p>
+                    <ul class="space-y-2 text-sm text-gray-600">
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 mr-3 mt-1 flex-shrink-0"></i>
+                            <span>Complete debris and paint removal</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 mr-3 mt-1 flex-shrink-0"></i>
+                            <span>Deep cleaning of work areas</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 mr-3 mt-1 flex-shrink-0"></i>
+                            <span>Move-in ready presentation</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section id="benefits" class="py-16 md:py-24 bg-gradient-to-br from-blue-50 to-indigo-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12 md:mb-16">
+                <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4 leading-tight">
+                    Why Choose Fresh Feel?
+                </h2>
+                <p class="text-lg text-gray-600 max-w-2xl mx-auto">
+                    Experience the difference that professional, comprehensive service makes in transforming your space.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 lg:gap-10">
+                <!-- Benefit 1: Cohesive Aesthetics -->
+                <div class="bg-white p-8 rounded-xl shadow-md hover:shadow-lg transition-all duration-300 border border-blue-100">
+                    <div class="flex items-start">
+                        <div class="flex-shrink-0">
+                            <div class="flex items-center justify-center h-12 w-12 rounded-md bg-blue-500 text-white">
+                                <i class="fas fa-sparkles"></i>
+                            </div>
+                        </div>
+                        <div class="ml-4">
+                            <h3 class="text-xl font-bold text-gray-900 mb-2">Cohesive Aesthetics</h3>
+                            <p class="text-gray-700 leading-relaxed">
+                                Our integrated painting and cleaning approach ensures your entire space achieves a unified, polished appearance. From perfectly painted walls to spotlessly clean surfaces, every element works together to create a harmonious, inviting environment that reflects your personal style and enhances your property value.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Benefit 2: Time-Saving Convenience -->
+                <div class="bg-white p-8 rounded-xl shadow-md hover:shadow-lg transition-all duration-300 border border-blue-100">
+                    <div class="flex items-start">
+                        <div class="flex-shrink-0">
+                            <div class="flex items-center justify-center h-12 w-12 rounded-md bg-blue-500 text-white">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                        </div>
+                        <div class="ml-4">
+                            <h3 class="text-xl font-bold text-gray-900 mb-2">Time-Saving Convenience</h3>
+                            <p class="text-gray-700 leading-relaxed">
+                                Why juggle multiple contractors when we handle everything? Our all-in-one service streamlines your project timeline, eliminates coordination headaches, and gets your space ready faster. Spend less time managing the project and more time enjoying your newly transformed room.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Benefit 3: Spotless Presentation -->
+                <div class="bg-white p-8 rounded-xl shadow-md hover:shadow-lg transition-all duration-300 border border-blue-100">
+                    <div class="flex items-start">
+                        <div class="flex-shrink-0">
+                            <div class="flex items-center justify-center h-12 w-12 rounded-md bg-blue-500 text-white">
+                                <i class="fas fa-check-circle"></i>
+                            </div>
+                        </div>
+                        <div class="ml-4">
+                            <h3 class="text-xl font-bold text-gray-900 mb-2">Spotless Presentation</h3>
+                            <p class="text-gray-700 leading-relaxed">
+                                Experience the satisfaction of a truly finished project. Our meticulous attention to detail means no paint drips, no dust residue, no overlooked corners. Your space will be immaculate and ready to impress, whether it's your home, office, or rental property.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section class="py-16 md:py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+                <div>
+                    <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-6 leading-tight">
+                        About Fresh Feel Painting & Cleaning
+                    </h2>
+                    <div class="space-y-6 text-gray-700 leading-relaxed">
+                        <p class="text-lg">
+                            Fresh Feel was founded with a simple yet powerful vision: to revolutionize how people experience home and commercial space transformations. Born from years of industry expertise and a passion for excellence, our company emerged from the realization that homeowners and business owners deserved a single, trusted partner who could deliver both exceptional painting and thorough cleaning services. What started as a small local operation has grown into a respected name in the community, trusted by hundreds of satisfied clients who have witnessed their spaces transform into beautiful, well-maintained environments.
+                        </p>
+                        <p class="text-lg">
+                            At Fresh Feel, we're driven by core values of integrity, craftsmanship, and customer satisfaction. We believe that every project, regardless of size, deserves meticulous attention to detail and professional execution. Our mission is to exceed expectations by combining superior painting techniques with comprehensive cleaning services, ensuring that every client receives a complete, hassle-free transformation. We're committed to using quality materials, employing skilled professionals, and maintaining transparent communication throughout every project. Your satisfaction isn't just our goal—it's the foundation of everything we do.
+                        </p>
+                    </div>
+                </div>
+                <div class="relative">
+                    <div class="bg-gradient-to-br from-blue-500 to-indigo-600 rounded-xl shadow-xl overflow-hidden h-96 md:h-full">
+                        <img src="https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=600&h=600&fit=crop" alt="Professional painting and cleaning team" class="w-full h-full object-cover opacity-90">
+                        <div class="absolute inset-0 bg-gradient-to-t from-blue-900/40 to-transparent"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-16 md:py-24 bg-gradient-to-br from-gray-50 to-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12 md:mb-16">
+                <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4 leading-tight">
+                    What Our Clients Say
+                </h2>
+                <p class="text-lg text-gray-600 max-w-2xl mx-auto">
+                    Don't just take our word for it. Hear from real customers who have experienced the Fresh Feel difference.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 lg:gap-10">
+                <!-- Testimonial 1 -->
+                <div class="testimonial-card bg-white p-8 rounded-xl shadow-md border border-gray-100">
+                    <div class="flex items-center mb-4">
+                        <div class="flex-1">
+                            <h3 class="text-lg font-bold text-gray-900">Sarah Mitchell</h3>
+                            <p class="text-sm text-gray-600">Homeowner, Toronto</p>
+                        </div>
+                    </div>
+                    <div class="flex mb-4 text-yellow-400">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="text-gray-700 leading-relaxed">
+                        "Fresh Feel transformed my entire living room in just three days. The color consultation was invaluable—they helped me choose a sophisticated sage green that I never would have picked on my own. The cleanup was so thorough that you'd never know they were even there. Absolutely worth every penny!"
+                    </p>
+                </div>
+
+                <!-- Testimonial 2 -->
+                <div class="testimonial-card bg-white p-8 rounded-xl shadow-md border border-gray-100">
+                    <div class="flex items-center mb-4">
+                        <div class="flex-1">
+                            <h3 class="text-lg font-bold text-gray-900">James Rodriguez</h3>
+                            <p class="text-sm text-gray-600">Property Manager, Commercial Building</p>
+                        </div>
+                    </div>
+                    <div class="flex mb-4 text-yellow-400">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="text-gray-700 leading-relaxed">
+                        "We've used Fresh Feel for multiple commercial projects across our portfolio. Their professionalism, attention to detail, and ability to work within our tight timelines is exceptional. The combination of painting and cleaning services means we don't have to coordinate with multiple contractors. Highly recommended!"
+                    </p>
+                </div>
+
+                <!-- Testimonial 3 -->
+                <div class="testimonial-card bg-white p-8 rounded-xl shadow-md border border-gray-100">
+                    <div class="flex items-center mb-4">
+                        <div class="flex-1">
+                            <h3 class="text-lg font-bold text-gray-900">Emily Chen</h3>
+                            <p class="text-sm text-gray-600">Interior Designer, Vancouver</p>
+                        </div>
+                    </div>
+                    <div class="flex mb-4 text-yellow-400">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="text-gray-700 leading-relaxed">
+                        "As an interior designer, I'm very particular about paint quality and finish. Fresh Feel consistently delivers flawless results that complement my design vision perfectly. Their team is professional, reliable, and truly cares about the final outcome. I trust them with all my client projects."
+                    </p>
+                </div>
+
+                <!-- Testimonial 4 -->
+                <div class="testimonial-card bg-white p-8 rounded-xl shadow-md border border-gray-100">
+                    <div class="flex items-center mb-4">
+                        <div class="flex-1">
+                            <h3 class="text-lg font-bold text-gray-900">David Thompson</h3>
+                            <p class="text-sm text-gray-600">Real Estate Agent, Calgary</p>
+                        </div>
+                    </div>
+                    <div class="flex mb-4 text-yellow-400">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="text-gray-700 leading-relaxed">
+                        "I recommend Fresh Feel to all my clients preparing homes for sale. The combination of fresh paint and immaculate cleaning has noticeably increased buyer interest and helped homes sell faster. Their efficiency means properties are market-ready in days, not weeks. Fantastic service!"
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="py-16 md:py-24 bg-white">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12 md:mb-16">
+                <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4 leading-tight">
+                    Frequently Asked Questions
+                </h2>
+                <p class="text-lg text-gray-600">
+                    Find answers to common questions about our painting and cleaning services.
+                </p>
+            </div>
+
+            <div class="space-y-4">
+                <!-- FAQ Item 1 -->
+                <div class="faq-item border border-gray-200 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow duration-300">
+                    <button class="faq-question w-full px-6 py-4 md:px-8 md:py-5 bg-white hover:bg-gray-50 transition-colors duration-300 flex items-center justify-between cursor-pointer">
+                        <span class="text-lg font-semibold text-gray-900 text-left">How long does a typical painting project take?</span>
+                        <i class="faq-icon fas fa-chevron-down text-blue-600 flex-shrink-0 ml-4"></i>
+                    </button>
+                    <div class="faq-answer hidden bg-gray-50 px-6 py-4 md:px-8 md:py-5 border-t border-gray-200">
+                        <p class="text-gray-700 leading-relaxed">
+                            The timeline for your painting project depends on several factors including the size of the space, number of rooms, surface condition, and the complexity of the color scheme. Most residential projects take between 3-7 days. A single bedroom typically takes 1-2 days, while an entire home might take 1-2 weeks. We always provide a detailed timeline estimate during the initial consultation so you know exactly what to expect. Our efficient team works diligently to complete projects on schedule without compromising quality.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 2 -->
+                <div class="faq-item border border-gray-200 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow duration-300">
+                    <button class="faq-question w-full px-6 py-4 md:px-8 md:py-5 bg-white hover:bg-gray-50 transition-colors duration-300 flex items-center justify-between cursor-pointer">
+                        <span class="text-lg font-semibold text-gray-900 text-left">What is included in your color consultation service?</span>
+                        <i class="faq-icon fas fa-chevron-down text-blue-600 flex-shrink-0 ml-4"></i>
+                    </button>
+                    <div class="faq-answer hidden bg-gray-50 px-6 py-4 md:px-8 md:py-5 border-t border-gray-200">
+                        <p class="text-gray-700 leading-relaxed">
+                            Our comprehensive color consultation includes an in-person assessment of your space, analysis of lighting conditions and existing décor, recommendations for color palettes that match your style and preferences, and sample testing on your walls. We discuss trending colors as well as timeless options that will maintain their appeal for years to come. Our color experts consider factors like room size, natural light, furniture, and the overall mood you want to create. We'll work with you until you're completely satisfied with your color choice before we begin painting.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 3 -->
+                <div class="faq-item border border-gray-200 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow duration-300">
+                    <button class="faq-question w-full px-6 py-4 md:px-8 md:py-5 bg-white hover:bg-gray-50 transition-colors duration-300 flex items-center justify-between cursor-pointer">
+                        <span class="text-lg font-semibold text-gray-900 text-left">Do you provide post-painting cleanup as standard?</span>
+                        <i class="faq-icon fas fa-chevron-down text-blue-600 flex-shrink-0 ml-4"></i>
+                    </button>
+                    <div class="faq-answer hidden bg-gray-50 px-6 py-4 md:px-8 md:py-5 border-t border-gray-200">
+                        <p class="text-gray-700 leading-relaxed">
+                            Yes! Comprehensive post-painting cleanup is included as standard with all our projects. We remove all paint residue, dispose of materials properly, clean all surfaces, and restore your space to pristine condition. We protect your furniture and flooring throughout the project and leave everything spotless when we're done. Many customers are amazed at how clean everything is—you'd never know we were working there. This thorough cleanup is part of our commitment to delivering a complete, professional service.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 4 -->
+                <div class="faq-item border border-gray-200 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow duration-300">
+                    <button class="faq-question w-full px-6 py-4 md:px-8 md:py-5 bg-white hover:bg-gray-50 transition-colors duration-300 flex items-center justify-between cursor-pointer">
+                        <span class="text-lg font-semibold text-gray-900 text-left">Can you handle both interior and exterior painting projects?</span>
+                        <i class="faq-icon fas fa-chevron-down text-blue-600 flex-shrink-0 ml-4"></i>
+                    </button>
+                    <div class="faq-answer hidden bg-gray-50 px-6 py-4 md:px-8 md:py-5 border-t border-gray-200">
+                        <p class="text-gray-700 leading-relaxed">
+                            Absolutely! We have extensive experience with both interior and exterior painting projects. Our team is equipped to handle residential homes, commercial buildings, and everything in between. For exterior work, we use weather-resistant paints and techniques suitable for your climate. We're experienced with various surfaces including wood, brick, vinyl, and metal. Whether you need a fresh coat on your front door, a complete exterior repaint, or an interior refresh, we have the expertise and equipment to deliver outstanding results.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 5 -->
+                <div class="faq-item border border-gray-200 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow duration-300">
+                    <button class="faq-question w-full px-6 py-4 md:px-8 md:py-5 bg-white hover:bg-gray-50 transition-colors duration-300 flex items-center justify-between cursor-pointer">
+                        <span class="text-lg font-semibold text-gray-900 text-left">What type of paint products do you use?</span>
+                        <i class="faq-icon fas fa-chevron-down text-blue-600 flex-shrink-0 ml-4"></i>
+                    </button>
+                    <div class="faq-answer hidden bg-gray-50 px-6 py-4 md:px-8 md:py-5 border-t border-gray-200">
+                        <p class="text-gray-700 leading-relaxed">
+                            We use only premium quality paints from trusted manufacturers known for durability, color accuracy, and environmental responsibility. We can recommend products based on your specific needs—whether you prefer eco-friendly options, high-durability finishes, or specialized products for particular surfaces. We'll discuss paint options during your consultation and explain the benefits of each. Quality paint is essential to a lasting finish, and we never compromise on this critical component. All materials are applied according to manufacturer specifications for optimal results and longevity.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="relative py-16 md:py-24 overflow-hidden">
+        <div class="absolute inset-0 bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=1200&h=600&fit=crop');">
+            <div class="absolute inset-0 bg-gradient-to-r from-blue-900/80 to-indigo-900/80"></div>
+        </div>
+        <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-6 leading-tight">
+                Ready to Transform Your Space?
+            </h2>
+            <p class="text-lg md:text-xl text-gray-100 mb-8 max-w-2xl mx-auto leading-relaxed">
+                Don't wait any longer to experience the Fresh Feel difference. Contact us today for a free consultation and discover how we can bring brilliance to your room.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="https://www.freshfeelpaintingandcleaning.ca/" target="_blank" rel="noopener noreferrer" class="btn-primary bg-white text-blue-600 px-8 py-4 rounded-lg hover:bg-gray-100 shadow-lg hover:shadow-xl font-semibold text-lg transition-all duration-300">
+                    <i class="fas fa-arrow-right mr-2"></i>Get Your Free Consultation
+                </a>
+                <a href="mailto:iainhmunro@gmail.com" class="btn-primary border-2 border-white text-white px-8 py-4 rounded-lg hover:bg-white/10 font-semibold text-lg transition-all duration-300">
+                    <i class="fas fa-envelope mr-2"></i>Email Us
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-300">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16">
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 mb-8">
+                <!-- Company Info -->
+                <div>
+                    <h3 class="text-white font-bold text-lg mb-4 flex items-center">
+                        <i class="fas fa-paint-brush text-blue-400 mr-2"></i>Fresh Feel
+                    </h3>
+                    <p class="text-sm leading-relaxed mb-4">
+                        Professional painting and cleaning services that transform your space with precision and care.
+                    </p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-blue-400 transition-colors duration-300" aria-label="Facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-blue-400 transition-colors duration-300" aria-label="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-blue-400 transition-colors duration-300" aria-label="Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-blue-400 transition-colors duration-300" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Quick Links -->
+                <div>
+                    <h4 class="text-white font-bold text-lg mb-4">Quick Links</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="#features" class="text-gray-400 hover:text-blue-400 transition-colors duration-300">Features</a></li>
+                        <li><a href="#benefits" class="text-gray-400 hover:text-blue-400 transition-colors duration-300">Benefits</a></li>
+                        <li><a href="#testimonials" class="text-gray-400 hover:text-blue-400 transition-colors duration-300">Testimonials</a></li>
+                        <li><a href="#faq" class="text-gray-400 hover:text-blue-400 transition-colors duration-300">FAQ</a></li>
+                    </ul>
+                </div>
+
+                <!-- Services -->
+                <div>
+                    <h4 class="text-white font-bold text-lg mb-4">Services</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="#" class="text-gray-400 hover:text-blue-400 transition-colors duration-300">Interior Painting</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-blue-400 transition-colors duration-300">Exterior Painting</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-blue-400 transition-colors duration-300">Color Consultation</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-blue-400 transition-colors duration-300">Cleaning Services</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact Info -->
+                <div>
+                    <h4 class="text-white font-bold text-lg mb-4">Contact</h4>
+                    <ul class="space-y-3 text-sm">
+                        <li class="flex items-start">
+                            <i class="fas fa-envelope text-blue-400 mr-3 mt-1 flex-shrink-0"></i>
+                            <a href="mailto:iainhmunro@gmail.com" class="text-gray-400 hover:text-blue-400 transition-colors duration-300">iainhmunro@gmail.com</a>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-globe text-blue-400 mr-3 mt-1 flex-shrink-0"></i>
+                            <a href="https://www.freshfeelpaintingandcleaning.ca/" target="_blank" rel="noopener noreferrer" class="text-gray-400 hover:text-blue-400 transition-colors duration-300">freshfeelpaintingandcleaning.ca</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Divider -->
+            <div class="border-t border-gray-800 pt-8">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4 items-center">
+                    <p class="text-sm text-gray-400">
+                        &copy; 2025 Fresh Feel Painting & Cleaning. All rights reserved.
+                    </p>
+                    <div class="flex flex-col sm:flex-row gap-4 md:justify-end text-sm">
+                        <a href="privacy.html" class="text-gray-400 hover:text-blue-400 transition-colors duration-300">Privacy Policy</a>
+                        <a href="terms.html" class="text-gray-400 hover:text-blue-400 transition-colors duration-300">Terms of Service</a>
+                        <a href="blog.html" class="text-gray-400 hover:text-blue-400 transition-colors duration-300">Blog</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Mobile Menu Toggle
+            const mobileMenuButton = document.querySelector('header nav .mobile-menu-button');
+            const mobileMenu = document.querySelector('header nav .mobile-menu');
+            
+            if (mobileMenuButton && mobileMenu) {
+                mobileMenuButton.addEventListener('click', () => {
+                    mobileMenu.classList.toggle('hidden');
+                    const icon = mobileMenuButton.querySelector('i');
+                    if (icon) {
+                        icon.classList.toggle('fa-bars');
+                        icon.classList.toggle('fa-times');
+                    }
+                });
+
+                const mobileMenuLinks = mobileMenu.querySelectorAll('a');
+                mobileMenuLinks.forEach(link => {
+                    link.addEventListener('click', () => {
+                        mobileMenu.classList.add('hidden');
+                        const icon = mobileMenuButton.querySelector('i');
+                        if (icon) {
+                            icon.classList.remove('fa-times');
+                            icon.classList.add('fa-bars');
+                        }
+                    });
+                });
+            }
+
+            // FAQ Accordion Toggle
+            const faqItems = document.querySelectorAll('.faq-item');
+            faqItems.forEach(item => {
+                const question = item.querySelector('.faq-question');
+                if (question) {
+                    question.addEventListener('click', () => {
+                        const answer = item.querySelector('.faq-answer');
+                        const isOpen = !answer.classList.contains('hidden');
+                        
+                        // Close all other FAQ items
+                        faqItems.forEach(otherItem => {
+                            if (otherItem !== item) {
+                                otherItem.querySelector('.faq-answer')?.classList.add('hidden');
+                                otherItem.querySelector('.faq-icon')?.classList.remove('rotate-180');
+                            }
+                        });
+                        
+                        // Toggle current item
+                        answer?.classList.toggle('hidden');
+                        item.querySelector('.faq-icon')?.classList.toggle('rotate-180');
+                    });
+                }
+            });
+
+            // Smooth Scroll for Anchor Links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function(e) {
+                    const href = this.getAttribute('href');
+                    if (href !== '#' && href.length > 1) {
+                        e.preventDefault();
+                        const target = document.querySelector(href);
+                        if (target) {
+                            target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                        }
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
